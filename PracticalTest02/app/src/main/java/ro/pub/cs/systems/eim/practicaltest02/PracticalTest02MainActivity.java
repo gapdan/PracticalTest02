@@ -21,7 +21,6 @@ public class PracticalTest02MainActivity extends AppCompatActivity {
     private ConnectButtonClickListener connectButtonClickListener = new ConnectButtonClickListener();
 
     private class ConnectButtonClickListener implements Button.OnClickListener {
-
         @Override
         public void onClick(View view) {
             String portS = portServer.getText().toString();
